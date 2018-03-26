@@ -1,0 +1,32 @@
+SELECT TOP 1* FROM Bancomer;
+SELECT TOP 1 * FROM Santander;
+
+SELECT 
+	idBanamex			= 1,
+	noCuenta			= '70075434764',
+	consecutivo			= 1,
+	OBCredito			= 'C',
+	OBFechaApertura		= '2018-03-22',
+	OBMoneda			= 'MXN',
+	OBMontoApertura		= 118001.54,
+	SLFechaTransaccion	= '2018-03-22',
+	SLFechaEntrada		= '0322',
+	SLCredito			= 'C',
+	SLMonedaTC			= 'N',
+	SLMonto				= 1041.82,
+	SLRazon				= 'MSC',
+	SLTipoReferencia	= 'NONREF',
+	SLReferencia		= '0000034200098687',
+	SLCodigoTransaccion = 35,
+	SLTransaccion		= 'MISCELLANEOUS',
+	AOTipoProductoID	= '/OT/',
+	AOTipoProducto		= 'DE',
+	AODescripcion		= '/EI/7600897                            COBRO COMI CAR PARCIALES A NOM00076',
+	CBCredito			= 'C',
+	CBFechaReserva		= '2018-03-22',
+	CBMoneda			= 'MXN',
+	CBMonto				= 131254.61,
+	CABCredito			= 'C',
+	CABFechaReserva		= '2018-03-22',
+	CABMoneda			= 'MXN',
+	CABMonto			= 131254.61
